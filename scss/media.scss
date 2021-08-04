@@ -1,0 +1,883 @@
+@media (max-width: 1200px) {
+  .menu {
+    &__list {
+      display: none;
+      position: absolute;
+      margin-top: 20px;
+      background-color: #fff;
+      padding: 20px;
+      min-width: 200px;
+      box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+    }
+    &__item {
+      text-align: center;
+      display: block;
+      padding: 10px 0;
+      margin-right: 0;
+      border-bottom: none;
+      cursor: pointer;
+      &:hover {
+        border-bottom: none;
+        color: #036FC7;
+        font-size: 18px;
+      }
+    }
+    &__btn {
+      display: flex;
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .main {
+    &__item {
+      max-width: 275px;
+    }
+  }
+  .delivery {
+    &-item {
+      max-width: 300px;
+    }
+  }
+  .reliability {
+    &__content {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &-item {
+      width: 350px;
+      margin: 0 20px 40px;
+    }
+  }
+  .features {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    &__title {
+      text-align: center;
+    }
+    &__inner {
+      flex-wrap: wrap;
+      margin-bottom: 150px;
+    }
+    &__info {
+      margin: 0 auto;
+    }
+    &__bg {
+      text-align: center;
+      right: auto;
+      width: 100%;
+      position: relative;
+      & img {
+        max-width: 100%;
+        object-fit: cover;
+      }
+    }
+    &__buttons {
+      width: 100%;
+      justify-content: center;
+      position: absolute;
+      bottom: -90px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    &__content {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    &-item {
+      margin: 20px;
+    }
+  }
+  .reasons {
+    &__text {
+      width: auto;
+    }
+    &__content {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__items {
+      margin-bottom: 50px;
+    }
+  }
+  .logistics {
+    min-height: auto;
+    background-size: cover;
+    &__content {
+      padding: 100px 25px;
+    }
+    &__title {
+      font-size: 32px;
+      line-height: 48px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .help {
+    &__title {
+      margin-bottom: 70px;
+    }
+    &__info {
+      max-width: 390px;
+    }
+    &__content {
+      &-title {
+        font-size: 26px;
+        line-height: 40px;
+        margin-bottom: 16px;
+      }
+    }
+  }
+  .about {
+    &-item {
+      max-width: 500px;
+      margin: 0 auto 50px;
+      text-align: center;
+      flex-wrap: wrap;
+      &__title {
+        margin-bottom: 10px;
+      }
+      & .about-item__bg {
+        order: 0;
+      }
+      & .about-item__content {
+        order: 1;
+      }
+      &__bg {
+        width: 100%;
+        margin: 0 auto 30px;
+      }
+      &__img {
+        max-width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+  .delivery {
+    &__text {
+      &--underlined {
+        max-width: 540px;
+      }
+    }
+    &__content {
+      margin: 0 auto;
+      width: 678px;
+      display: grid;
+      grid-template-rows: auto;
+      grid-template-columns: 334px 334px;
+      grid-gap: 10px;
+    }
+    &-item {
+      max-width: 334px;
+    }
+  }
+  .work {
+    padding-top: 100px;
+    &__content {
+      flex-wrap: wrap;
+    }
+    &__info {
+      margin: 0 auto 30px;
+      text-align: center;
+    }
+    &__stages {
+      margin: 0 auto;
+    }
+    &__buttons {
+      justify-content: center;
+    }
+  }
+  .clients {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 900px) {
+  .page-section {
+    padding: 50px 0;
+  }
+  .header {
+    &__title {
+      font-size: 32px;
+      line-height: 48px;
+      max-width: 660px;
+    }
+  }
+  .main {
+    &__items {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    &__item {
+      min-width: 290px;
+      padding: 0 10px;
+      margin: 0 auto 30px;
+    }
+  }
+  .chaos {
+    &__text {
+      max-width: 70%;
+    }
+  }
+  .help {
+    text-align: center;
+    margin-bottom: 30px;
+    &__title {
+      margin-bottom: 30px;
+    }
+    &__content {
+      flex-wrap: wrap;
+      &-title {
+        text-align: center;
+      }
+    }
+    &__info {
+      max-width: 700px;
+      margin: 0 auto;
+      order: 2;
+    }
+    &__bg {
+      width: 100%;
+      margin: 0 auto 30px;
+      &-img {
+        max-width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+  .reliability {
+    padding-bottom: 150px;
+  }
+}
+
+@media (max-width: 840px) {
+  .help {
+    &__title {
+      max-width: 600px;
+    }
+  }
+  .companies {
+    &__img {
+      max-width: 155px;
+      & img {
+        width: 100%;
+      }
+    }
+  }
+  .clients {
+    &__img {
+      margin: 20px 30px;
+      max-width: 140px;
+    }
+  }
+  .footer {
+    &-top {
+      margin-bottom: 50px;
+      &__item {
+        width: 35%;
+        margin-bottom: 50px;
+        &:first-child {
+          width: 50%;
+        }
+      }
+      &__content {
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
+
+@media (max-width: 740px) {
+  .delivery {
+    &__content {
+      grid-template-columns: 290px 290px;
+      max-width: 600px;
+    }
+    &-item {
+      max-width: 290px;
+    }
+  }
+  .reliability {
+    &__content {
+      margin-bottom: 20px;
+    }
+    &-kit {
+      padding: 20px 40px;
+      max-width: 400px;
+      margin: 0 auto;
+      flex-direction: column;
+      text-align: center;
+      &__img {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+      &__text {
+        text-align: center;
+        padding: 0;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .reasons {
+    &__text {
+      max-width: 500px;
+    }
+  }
+  .footer {
+    &-bottom {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      font-size: 13px;
+    }
+    &__copyright {
+      margin-bottom: 10px;
+      max-width: 170px;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  body {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  .header {
+    &__title {
+      font-size: 22px;
+      line-height: 36px;
+      max-width: 400px;
+    }
+  }
+  .chaos {
+    &__title {
+      font-size: 22px;
+      line-height: 36px;
+      max-width: 400px;
+      margin: 0 auto 15px;
+    }
+  }
+  .help {
+    &__title {
+      font-size: 22px;
+      line-height: 36px;
+      max-width: 540px;
+    }
+    &__content {
+      &-text {
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .text-underlined {
+    font-size: 18px;
+    line-height: 26px;
+    &:after {
+      top: 13px;
+      height: 13px;
+    }
+  }
+  .companies {
+    &__logos {
+      padding: 30px 0;
+    }
+    &__img {
+      max-width: 120px;
+    }
+  }
+  .about {
+    &__title {
+      font-size: 22px;
+      line-height: 36px;
+      max-width: 400px;
+      margin: 0 auto 15px;
+    }
+    &__text {
+      font-size: 18px;
+      line-height: 26px;
+    }
+  }
+  .delivery {
+    &__title {
+      font-size: 22px;
+      line-height: 36px;
+      max-width: 540px;
+    }
+    &__text {
+      font-size: 18px;
+      line-height: 26px;
+      max-width: 470px;
+    }
+    &__content {
+      width: auto;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+    &-item {
+      text-align: center;
+      max-width: 350px;
+      flex-direction: column;
+      &__img {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .reliability {
+    &__title {
+      font-size: 22px;
+      line-height: 36px;
+      &::after {
+        transform: scale(0.7);
+      }
+    }
+    &__text {
+      font-size: 18px;
+      line-height: 26px;
+      max-width: 400px;
+    }
+  }
+  .features {
+    padding-bottom: 50px;
+    &__title {
+      font-size: 22px;
+      line-height: 36px;
+    }
+    &__item {
+      margin-left: 20px;
+      padding-left: 20px;
+    }
+  }
+  .work {
+    &__title {
+      font-size: 22px;
+      line-height: 36px;
+      max-width: 540px;
+    }
+    &__text {
+      font-size: 18px;
+      line-height: 26px;
+      max-width: 470px;
+    }
+  }
+  .reasons {
+    &__title {
+      font-size: 22px;
+      line-height: 36px;
+      max-width: 540px;
+      margin: 0 auto 20px;
+    }
+    &__text {
+      font-size: 18px;
+      line-height: 26px;
+      max-width: 400px;
+    }
+  }
+  .reviews {
+    &__item {
+      padding-left: 40px;
+      padding-right: 20px;
+    }
+  &__text {
+    font-size: 18px;
+    line-height: 26px;
+    &::before {
+      transform: scale(0.7);
+      top: -30px;
+    }
+  }
+  &__author {
+    &-name {
+      font-size: 13px;
+    }
+    &-position {
+      font-size: 13px;
+    }
+  }
+  }
+  .clients {
+    &__img {
+      margin: 10px 20px;
+      max-width: 120px;
+    }
+  }
+  .logistics {
+    &__content {
+      padding: 50px 0;
+    }
+    &__title {
+      font-size: 22px;
+      line-height: 36px;
+      max-width: 450px;
+      margin: 0 auto 50px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .page-section {
+    padding: 25px 0;
+  }
+  .logo {
+    background-image: url('/images/logo-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 44px;
+    &__img {
+      display: none;
+    }
+  }
+  .header {
+    &__top {
+      padding: 26px 0 10px;
+      min-height: auto;
+    }
+  }
+  .delivery {
+  margin-bottom: 50px;
+  }
+  .reliability {
+    &-kit {
+      padding: 10px 20px;
+      &__text {
+        font-size: 16px;
+      }
+      &__link {
+        font-size: 16px;
+        padding: 10px 15px;
+      }
+    }
+  }
+  .reasons {
+    &__items {
+      max-width: 100%;
+    }
+    &__item {
+      text-align: center;
+      flex-direction: column;
+      align-items: center;
+      &-img {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .logistics {
+    margin-bottom: 70px;
+    &__buttons {
+      & a {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 10px 15px;
+      }
+    }
+  }
+  .footer {
+    &-top {
+      margin-bottom: 30px;
+      &__content {
+        width: 70%;
+        margin: 0 auto;
+      }
+      &__item {
+        width: 100%;
+        &:first-child {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 440px) {
+  body {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .container {
+    padding: 0 10px;
+  }
+  .header {
+    &__title {
+      font-size: 17px;
+      line-height: 25px;
+      max-width: 300px;
+      margin-bottom: 15px;
+    }
+    &__buttons {
+      margin-bottom: 30px;
+      & a {
+        font-size: 15px;
+        line-height: 16px;
+        padding: 10px 15px;
+      }
+    }
+  }
+  .chaos {
+    &__title {
+      font-size: 17px;
+      line-height: 25px;
+      max-width: 400px;
+      margin: 0 auto 15px;
+    }
+    &__text {
+      max-width: 310px;
+    }
+  }
+  .help {
+    &__title {
+      font-size: 17px;
+      line-height: 25px;
+      max-width: 350px;
+      margin: 0 auto 40px;  
+    }
+    &__content {
+      &-title {
+        margin-bottom: 15px;
+      }
+      &-text {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .text-underlined {
+    font-size: 14px;
+    line-height: 20px;
+    &:after {
+      top: 10px;
+      height: 10px;
+    }
+  }
+  .companies {
+    &__logos {
+      padding: 15px 0;
+    }
+    &__img {
+      max-width: 100px;
+    }
+  }
+  .about {
+    &__title {
+      font-size: 17px;
+      line-height: 25px;
+    }
+    &__text {
+      font-size: 14px;
+      line-height: 20px;
+      margin-bottom: 30px;
+    }
+    &-item {
+      &__title {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      &__text {
+        font-size: 13px;
+      }
+    }
+  }
+  .delivery {
+    &__title {
+      font-size: 17px;
+      line-height: 25px;
+      margin-bottom: 15px;
+    }
+    &__text {
+      font-size: 14px;
+      line-height: 20px;
+      max-width: 300px;
+    }
+    &-item {
+      &__title {
+        font-size: 15px;
+        line-height: 20px;
+      }
+      &__text {
+        font-size: 13px;
+      }
+    }
+  }
+  .reliability {
+    &__title {
+      font-size: 17px;
+      line-height: 25px;
+      margin-bottom: 15px;
+      &::after {
+        transform: scale(0.5);
+      }
+    }
+    &__text {
+      font-size: 14px;
+      line-height: 20px;
+      max-width: 300px;
+    }
+    &-item {
+      &__title {
+        font-size: 15px;
+        line-height: 20px;
+      }
+      &__text {
+        font-size: 13px;
+      }
+    }
+    &-kit {
+      max-width: 360px;
+      padding: 20px 15px;
+      &__text {
+        margin: 0 auto 15px;
+        max-width: 320px;
+        font-size: 14px;
+        line-height: 26px;
+      }
+      &__link {
+        font-size: 14px;
+        padding: 8px 20px;
+      }
+    }
+  }
+  .features {
+    padding-top: 50px;
+    &__title {
+      font-size: 17px;
+      line-height: 25px;
+      margin-bottom: 30px;
+    }
+    &__item {
+      margin-left: 5px;
+      &-title {
+        font-size: 15px;
+        line-height: 20px;
+      }
+      &-text {
+        font-size: 13px;
+      }
+    }
+    &__buttons {
+      & a {
+        font-size: 15px;
+        line-height: 16px;
+        padding: 10px 15px;
+      }
+    }
+    &-item {
+      margin: 0;
+      margin-bottom: 30px;
+      &__title {
+        font-size: 15px;
+        line-height: 20px;
+      }
+      &__text {
+        font-size: 13px;
+      }
+    }
+  }
+  .work {
+    padding: 50px 0 100px;
+    &__title {
+      font-size: 17px;
+      line-height: 25px;
+    }
+    &__text {
+      font-size: 14px;
+      line-height: 20px;
+      margin-bottom: 30px;
+    }
+    &__bg {
+      width: 100%;
+      object-fit: cover;
+    }
+    &__item {
+      padding-left: 40px;
+      &::before {
+        width: 30px;
+        height: 30px;
+        font-size: 13px;
+      }
+      &-title {
+        font-size: 15px;
+        line-height: 20px;
+      }
+      &-text {
+        font-size: 13px;
+      }
+    }
+    &__buttons {
+      & a {
+        font-size: 15px;
+        line-height: 16px;
+        padding: 10px 15px;
+      }
+    }
+  }
+  .reasons {
+    &__title {
+      font-size: 17px;
+      line-height: 25px;
+    }
+    &__text {
+      font-size: 14px;
+      line-height: 20px;
+      margin-bottom: 30px;
+    }
+    &__item {
+      &-title {
+        font-size: 15px;
+        line-height: 20px;
+      }
+      &-text {
+        font-size: 13px;
+      }
+    }
+  }
+  .reviews {
+    &__text {
+      font-size: 15px;
+      line-height: 25px;
+      &::before {
+        transform: scale(0.5);
+        top: -30px;
+      }
+    }
+  }
+  .clients {
+    &__img {
+      margin: 10px 15px;
+      max-width: 110px;
+    }
+  }
+  .logistics {
+    &__title {
+      font-size: 18px;
+      line-height: 28px;
+      margin-bottom: 25px;
+    }
+    &__buttons {
+      & a {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 10px 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 319px) {
+  body {
+    opacity: 0.1;
+  }
+}
+
+@media (min-width: 1201px) {
+  .menu {
+    &__list {
+      display: flex !important;
+    }
+  }
+}
